@@ -1,4 +1,4 @@
-# PASS KIT107 2023 👋
+# Welcome To PASS KIT107 2023 👋
 
 🎓 PASS sessions are designed and led by PASS Leaders (not lecturers or tutors) to compliment the lecture content and notes. PASS Leaders are students who have previously and successfully studied the unit. 
 
