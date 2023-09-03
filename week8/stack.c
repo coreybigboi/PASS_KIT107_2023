@@ -37,12 +37,12 @@ void* top(stack s) {
 * Removes the top item from the stack
 */
 void pop(stack s) {
-	// TODO: implement this by changing the approprate field in the stack_char struct
+	// TODO: implement this by changing the approprate field in the stack_char struct (only if the stack is not empty!)
 }
 
 /*
 * Adds a new item to the stack
 */
 void push(stack s, void* i) {
-	// TODO: implement this by setting the appropriate element array position to i and adjust the counter
+	// TODO: implement this by setting the appropriate element array position to i and adjust the counter (only if the stack is not full!)
 }
