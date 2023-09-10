@@ -60,7 +60,7 @@ void* top(Stack s) {
 * Removes the top item from the stack
 */
 void pop(Stack s) {
-	// TODO: implement this through the following steps
+    // TODO: implement this through the following steps
     // 1. check that the stack is not empty
     // 2. create a temporary variable to store the node at the top of the stack (eg. Node temp = ?)
     // 3. set the "top" field of the Stack_Internals struct to be the second node in the linked list (the new top node)
