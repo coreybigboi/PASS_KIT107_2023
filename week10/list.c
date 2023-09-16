@@ -3,21 +3,21 @@
 #include <stdlib.h>
 #include "list.h"
 
-// Structure for a linked list node
+// structure for a linked list node
 struct node_int {
     int data;
     node next;
 };
 
-// Node is a pointer to the Node_Internals structure 
+// node is a pointer to the node_int structure 
 typedef struct node_int* node;
 
-// Structure for the stack ADT implemented as a linked list
+// structure for the ordered list ADT
 struct list_int {
     node head;
 };
 
-// Stack is a pointer to the Stack_Internals structure
+// list is a pointer to the list_int structure
 typedef struct list_int* list;
 
 /*
@@ -35,7 +35,7 @@ node createNode(int data) {
 }
 
 /*
-* Creates a new list and stores it in the list variable pointed to by lp
+* Creates a new list and stores it into the list variable pointed to by lp
 */
 void init_list(list* lp) {
     // TODO implement this function
@@ -44,7 +44,7 @@ void init_list(list* lp) {
 }
 
 /*
-* Inserts a new number into the list in ascending order
+* Inserts a new number to the list in ascending order
 */
 void insertInOrder(list l, int data) {
     // TODO implement this function
